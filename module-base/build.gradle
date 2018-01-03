@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'maven'
+///*搭建本地maven仓库(无法使用aar中的第三方依赖）*/
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: "file://localhost/" +"Users/xiangyang/Library/Android/sdk/extras/m2repository")
+//            pom.version = '1.0.0'
+//            pom.groupId = 'com.example'
+//            pom.artifactId = 'module-base'
+//        }
+//    }
+//}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ moduleName : project.getName() ]
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    /*--------support------------*/
+//    api 'com.android.support.constraint:constraint-layout:1.0.2'
+//    api 'com.android.support:appcompat-v7:26.1.0'
+//    api 'com.android.support:support-v4:26.1.0'
+//    api 'com.android.support:design:26.1.0'
+
+    /*---------open source-----------------*/
+    api 'io.reactivex.rxjava2:rxjava:2.1.1'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'com.squareup.okhttp3:okhttp:3.6.0'
+    api 'com.squareup.okio:okio:1.11.0'
+//    api "com.alibaba:arouter-api:${ROUTER_API_VERSION}"
+//    annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+    api 'com.github.bumptech.glide:glide:3.7.0'
+
+}
+
+
+
