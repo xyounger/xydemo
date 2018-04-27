@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
-INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
+ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
+INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
 	package
-		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:2:11-44
+		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:2:11-43
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
-		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
+		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
-		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:46
+		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:1-2:45
 		INJECTED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/xiangyang/Documents/mydemo/XYDemo/module-base/src/main/AndroidManifest.xml:1:11-69

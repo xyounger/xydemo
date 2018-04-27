@@ -6,7 +6,7 @@ apply plugin: 'com.android.library'
 //        mavenDeployer {
 //            repository(url: "file://localhost/" +"Users/xiangyang/Library/Android/sdk/extras/m2repository")
 //            pom.version = '1.0.0'
-//            pom.groupId = 'com.example'
+//            pom.groupId = 'com.xyoung'
 //            pom.artifactId = 'module-base'
 //        }
 //    }

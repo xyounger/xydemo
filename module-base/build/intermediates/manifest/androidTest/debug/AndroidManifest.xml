@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.baselibrary.test" >
+    package="com.xyoung.baselibrary.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -10,11 +10,18 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.example.baselibrary.test"
-        android:targetPackage="com.example.baselibrary.test" />
+        android:label="Tests for com.xyoung.baselibrary.test"
+        android:targetPackage="com.xyoung.baselibrary.test" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>
